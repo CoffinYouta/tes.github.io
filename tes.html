@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style type="text/css">
+        header{
+            background-color: grey;
+            color: white;
+            font-size: 35px;
+            padding: 30px;
+            text-align: center;
+        }
+        nav ul{
+            list-style-type: none;
+        }
+        article{
+
+        }
+        nav{
+            float: left;
+        }
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <header>Hu Tao</header>
+    <script type="text/javascript">
+        function light(sw) {
+            var pic;
+            if (sw == 0) {
+                pic = "https://upload-os-bbs.mihoyo.com/upload/2021/02/27/5481824/82e4dd08c078d898e2ff376a741c1f5a_1713888912688970757.png?x-oss-process=image/resize,s_740/quality,q_80/auto-orient,0/interlace,1/format,png"
+            } else {
+                pic = "https://upload-os-bbs.mihoyo.com/upload/2021/02/27/5481824/a34d4181a382535e5a4e9ebc4f6f8c88_6494629320744677369.png?x-oss-process=image/resize,s_740/quality,q_80/auto-orient,0/interlace,1/format,png"
+            }
+
+            document.getElementById('o').src = pic;
+        }
+    </script>
+    <img src="https://upload-os-bbs.mihoyo.com/upload/2021/02/27/5481824/82e4dd08c078d898e2ff376a741c1f5a_1713888912688970757.png?x-oss-process=image/resize,s_740/quality,q_80/auto-orient,0/interlace,1/format,png" id="o" width="500" height="300">
+    <p>
+        <button type="button" onclick="light(1)">Ini senyum</button>
+        <button type="button" onclick="light(0)">ini diam</button>
+    </p>
+    <p id="m">ganti</p>
+    <script type="text/javascript">
+        function myFunction() {
+            document.getElementById('m').innerHTML = "wkkwwkk"
+        }
+    </script>
+    <button type="button" onclick="myFunction()">ini tombol</button>
+    <h4 id="p" lang="id"></h4>
+    <button type="button" onclick="document.getElementById('p').innerHTML = Date();">ini tgl</button>
+<section>
+    <nav>
+        <ul>
+            <li><a href="https://anikyojin.id/">anikyojin</a></li>
+            <li><a href="https://otakudesu.moe/">otakudesu</a></li>
+        </ul>
+    </nav>
+    <article>
+        <h4>Hu tao</h4>
+        <p>Hu Tao adalah Direktur ke-77 dari Rumah Pemakaman Wangsheng, orang yang penting untuk mengelola urusan pemakaman Liyue.
+Dia melakukan yang terbaik untuk melaksanakan ritual terakhir seseorang dengan sempurna dan menjaga keseimbangan yin dan yang dunia.</p>
+<p>Selain itu, dia juga seorang penyair berbakat yang banyak "mahakarya" telah beredar di masyarakat Liyue dari mulut ke mulut.</p>
+    </article>
+</section>
+<footer>Done</footer>
+</body>
+</html>
