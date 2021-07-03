@@ -67,5 +67,37 @@
     </script>
     <p>jsqjsoshqoshoqhsoqhsohsohqso</p>
     <h3>Hu tao</h3>
+    <div style="text-align: left;">
+        <button onclick="playPause()
+        ">play/pause</button>
+        <button onclick="otak()">kecil</button>
+        <video id="video">
+            <source src="D:\tes html\moshi.mp4" type="video/mp4">
+        </video><br>
+    </div>
+    <script type="text/javascript">
+      var shinobu = document.getElementById('video');
+
+      function playPause() {
+        if (shinobu.paused)
+            shinobu.play();
+        else
+            shinobu.pause();
+      }
+    </script>
+    <button onclick="musik()">musik</button><br>
+    <audio id="musik" autoplay="on">
+        <source src="C:\Users\ASUS\Downloads\Telegram Desktop\mood.mp3" type="audio\mpeg">
+    </audio>
+<script type="text/javascript">
+    var musikk = document.getElementById('musik');
+
+    function musik() {
+        if (musikk.paused)
+            musikk.play();
+        else
+            musikk.pause();
+    }
+</script>
 </body>
 </html>
